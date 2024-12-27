@@ -1,2 +1,2 @@
-MODEL_PATH = "src\model\model.pkl"
-SCALER_PATH = "src\model\scaler.pkl"
+MODEL_PATH = "model\model.pkl"
+SCALER_PATH = "model\scaler.pkl"
