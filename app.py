@@ -34,7 +34,7 @@ for idx, field in enumerate(fields):
     value = col.number_input(
         field,
         min_value=0,
-        max_value=10,
+        max_value=20,
         value=5,
         step=1
     )
