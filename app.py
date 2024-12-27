@@ -2,11 +2,9 @@ import streamlit as st
 import joblib
 import numpy as np
 
-from constants import MODEL_PATH, SCALER_PATH
-
 # Load model and scaler
-model = joblib.load(MODEL_PATH)
-scaler = joblib.load(SCALER_PATH)
+model = joblib.load('model/model.pkl')
+scaler = joblib.load('model/scaler.pkl')
 
 # Streamlit App
 st.title("Flood Probability Prediction")
